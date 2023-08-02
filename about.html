@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../../cdn.jsdelivr.net/npm/choices.js/public/assets/styles/base.min.css" />
+  <link rel="stylesheet" href="../../../cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../../../unpkg.com/leaflet%401.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/vendors.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <title>Wonderkids Corner | Abount Us</title>
+</head>
+
+<body class="preloader-visible" data-barba="wrapper">
+  <!-- preloader start -->
+  <div class="preloader js-preloader">
+    <div class="preloader__bg"></div>
+  </div>
+  <!-- preloader end -->
+
+
+  <main class="main-content  ">
+
+    <header data-anim="fade" data-add-bg="bg-dark-1" class="header -type-1 js-header">
+
+
+      <div class="header__container">
+        <div class="row justify-between items-center">
+
+          <div class="col-auto">
+            <div class="header-left">
+              <div class="header__logo ">
+                <a data-barba href="index.html">
+                  <img src="img/logo.png" alt="logo" height="150" width="100">
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="header-menu js-mobile-menu-toggle ">
+            <div class="header-menu__content">
+              <div class="mobile-bg js-mobile-bg"></div>
+              <div class="menu js-navList">
+                <ul class="menu__nav text-white -is-active">
+                  <li>
+                    <a href="index.html">Home</a>
+                  </li>
+
+                  <li>
+                    <a href="bangla.html">Bangla</a>
+                  </li>
+                  <li>
+                    <a href="english.html">English</a>
+                  </li>
+                  <li>
+                    <a href="math.html">Math</a>
+                  </li>
+                  <li>
+                    <a href="quiz.html">Quiz</a>
+                  </li>
+                  <li>
+                    <a class="menuactive" href="about.html">About Us</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">Contact</a>
+                  </li>
+                  <li>
+                    <a href="login.html">Login</a>
+                  </li>
+				         <li>
+                    <a href="signup.html">SignUp</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="header-menu-close" data-el-toggle=".js-mobile-menu-toggle">
+              <div class="size-40 d-flex items-center justify-center rounded-full bg-white">
+                <div class="icon-close text-dark-1 text-16"></div>
+              </div>
+            </div>
+
+            <div class="header-menu-bg"></div>
+          </div>
+
+
+          <div class="col-auto">
+            <div class="header-right d-flex items-center">
+              <div class="header-right__icons text-white d-flex items-center">
+
+                <div class="">
+
+                  <div class="toggle-element js-search-toggle">
+                    <div class="header-search pt-90 bg-white shadow-4">
+                      <div class="container">
+                        <div class="header-search__field">
+                          <div class="icon icon-search text-dark-1"></div>
+                          <input type="text" class="col-12 text-18 lh-12 text-dark-1 fw-500" placeholder="What do you want to learn?">
+
+                          <button class="d-flex items-center justify-center size-40 rounded-full bg-purple-3" data-el-toggle=".js-search-toggle">
+                            <img src="img/menus/close.svg" alt="icon">
+                          </button>
+                        </div>
+
+                        <div class="header-search__content mt-30">
+                          <div class="text-17 text-dark-1 fw-500">Popular Right Now</div>
+
+                          <div class="d-flex y-gap-5 flex-column mt-20">
+                            <a href="courses-single-1.html" class="text-dark-1">The Ultimate Drawing Course - Beginner to Advanced</a>
+                            <a href="courses-single-2.html" class="text-dark-1">Character Art School: Complete Character Drawing Course</a>
+                            <a href="courses-single-3.html" class="text-dark-1">Complete Blender Creator: Learn 3D Modelling for Beginners</a>
+                            <a href="courses-single-4.html" class="text-dark-1">User Experience Design Essentials - Adobe XD UI UX Design</a>
+                            <a href="courses-single-5.html" class="text-dark-1">Graphic Design Masterclass - Learn GREAT Design</a>
+                            <a href="courses-single-6.html" class="text-dark-1">Adobe Photoshop CC – Essentials Training Course</a>
+                          </div>
+
+                          <div class="mt-30">
+                            <button class="uppercase underline">PRESS ENTER TO SEE ALL SEARCH RESULTS</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="header-search__bg" data-el-toggle=".js-search-toggle"></div>
+                  </div>
+                </div>
+
+                <div class="d-none xl:d-block ml-20">
+                  <button class="text-white items-center" data-el-toggle=".js-mobile-menu-toggle">
+                    <i class="text-11 icon icon-mobile-menu"></i>
+                  </button>
+                </div>
+
+              </div>
+              
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+
+    <div class="content-wrapper  js-content-wrapper">
+      <section class="page-header -type-1">
+        <div class="container">
+          <div class="page-header__content">
+            <div class="row justify-center text-center">
+              <div class="col-auto">
+                <div data-anim="slide-up delay-1">
+                  <h1 class="page-header__title">About Us</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="layout-pt-md layout-pb-md">
+        <div data-anim-wrap class="container">
+          <div class="row y-gap-50 justify-between items-center">
+            <div class="col-lg-6 pr-50 sm:pr-15">
+              <div class="composition -type-8">
+                <div class="-el-1">
+                  <img src="img/about-1/1.png" alt="image">
+                  <div data-move="60" class="lg:d-none img-el -w-260 px-20 py-20 d-flex items-center bg-white rounded-8 js-mouse-move">
+                    <div class="ml-20">
+                      <div class="text-dark-1 text-16 fw-500 lh-1">Admin One</div>
+                      <div class="mt-3">Sumona Islam<br>Department of EdTech,<br>Bangabandhu Sheikh Mujibur Rahman Digital University,Bangladesh</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="-el-2">
+                  <img src="img/about-1/2.jpg" alt="image">
+                  <div data-move="60" class="lg:d-none img-el -w-260 px-20 py-20 d-flex items-center bg-white rounded-8 js-mouse-move">
+                    <div class="ml-20">
+                      <div class="text-dark-1 text-16 fw-500 lh-1">Admin Two</div>
+                      <div class="mt-3">Shampa Biswas<br>Department of EdTech,<br> Bangabandhu Sheikh Mujibur Rahman Digital University,Bangladesh</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-5">
+              <h2 class="text-30 lh-16">Welcome to Wonderkids Corner!<br>Enhance your learning skills with the best Educational contents</h2>
+			  
+              <p class="text-dark-1 mt-30">This website presents the development and implementation of a comprehensive pre-primary educational website aimed at enhancing early childhood learning through interactive resources. The objective of this project was to create a user-friendly and engaging platform that provides young learners with a stimulating and educational experience, tailored to their developmental needs.</p>
+              
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="layout-pt-md layout-pb-lg">
+        <div class="container">
+          <div class="row y-gap-20 justify-center text-center">
+            <div class="col-auto">
+              <div class="sectionTitle ">
+                <h2 class="sectionTitle__title ">How it works?</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="row y-gap-30 justify-between pt-60 lg:pt-40">
+
+            <div class="col-xl-2 col-lg-3 col-md-6">
+              <div class="d-flex flex-column items-center text-center">
+                <div class="relative size-120 d-flex justify-center items-center rounded-full bg-light-4">
+                  <img src="img/home-3/works/1.svg" alt="image">
+                  <div class="side-badge">
+                    <div class="size-35 d-flex justify-center items-center rounded-full bg-dark-1 -dark-bg-purple-1">
+                      <span class="text-14 fw-500 text-white">01</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-17 fw-500 text-dark-1 mt-30">Browse Lesson Form Menu Bangla, English, Math.</div>
+              </div>
+            </div>
+
+
+            <div class="col-auto xl:d-none">
+              <div class="pt-30">
+                <img src="img/misc/lines/1.svg" alt="icon">
+              </div>
+            </div>
+
+
+            <div class="col-xl-2 col-lg-3 col-md-6">
+              <div class="d-flex flex-column items-center text-center">
+                <div class="relative size-120 d-flex justify-center items-center rounded-full bg-light-4">
+                  <img src="img/home-3/works/2.svg" alt="image">
+                  <div class="side-badge">
+                    <div class="size-35 d-flex justify-center items-center rounded-full bg-dark-1 -dark-bg-purple-1">
+                      <span class="text-14 fw-500 text-white">02</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-17 fw-500 text-dark-1 mt-30">Click on the images to hear voice.</div>
+              </div>
+            </div>
+
+
+            <div class="col-auto xl:d-none">
+              <div class="pt-30">
+                <img src="img/misc/lines/2.svg" alt="icon">
+              </div>
+            </div>
+
+
+            <div class="col-xl-2 col-lg-3 col-md-6">
+              <div class="d-flex flex-column items-center text-center">
+                <div class="relative size-120 d-flex justify-center items-center rounded-full bg-light-4">
+                  <img src="img/home-3/works/3.svg" alt="image">
+                  <div class="side-badge">
+                    <div class="size-35 d-flex justify-center items-center rounded-full bg-dark-1 -dark-bg-purple-1">
+                      <span class="text-14 fw-500 text-white">03</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-17 fw-500 text-dark-1 mt-30">That’s it! Start learning right away.</div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer -type-1 bg-dark-1 -green-links">
+        <div class="container">
+          <div class="footer-header">
+            <div class="row y-gap-20 justify-between items-center">
+              <div class="col-auto">
+                <div class="footer-header__logo">
+                  <img src="img/logo.png" alt="logo" height="150" width="100">
+                </div>
+              </div>
+              <div class="col-auto">
+                <div class="footer-header-socials">
+                  <div class="footer-header-socials__title text-white">Follow Us</div>
+                  <div class="footer-header-socials__list">
+                    <a href="#"><i class="icon-facebook"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="py-30 border-top-light-15">
+            <div class="row justify-between items-center y-gap-20">
+              <div class="col-auto">
+                <div class="d-flex items-center h-100 text-white">
+                  © 2023 Wonderkids Corner. All Right Reserved.
+                </div>
+              </div>
+
+              <div class="col-auto">
+                <div class="d-flex x-gap-20 y-gap-20 items-center flex-wrap">
+                  <div>
+                    <a href="#" class="button px-30 h-50 -dark-6 rounded-200 text-white">
+                      <i class="icon-worldwide text-20 mr-15"></i><span class="text-15">English</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    </div>
+  </main>
+
+  <!-- JavaScript -->
+  <script src="../../../unpkg.com/leaflet%401.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+  <script src="js/vendors.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+
+</html>
